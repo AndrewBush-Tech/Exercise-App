@@ -1,0 +1,92 @@
+
+body {
+  background-color: antiquewhite;
+  border: 5px solid rgb(41, 103, 61);
+  color: rgb(41, 103, 61);
+  padding: 20px;
+  font-family: Arial;
+  margin:10px;
+}
+
+tr td{
+  border: 10px solid rgb(41, 103, 61);
+  color: rgb(19, 2, 115);
+  padding: 20px;
+}
+
+tr th{
+  border: 10px solid rgb(104, 212, 139);
+  color: rgb(41, 103, 61);
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(103, 41, 103);
+  font-family: Arial;
+}
+
+nav {
+  color: rgb(103, 41, 103);
+  font-family: Arial;
+}
+
+h2 {
+  color: rgb(103, 41, 103);
+  font-family: Arial;
+}
+
+fieldset {
+  font-family: Arial;
+}
+
+legend {
+  font-family: Arial;
+}
+
+input {
+  font-family: Arial;
+}
+
+button {
+  font-family: Arial; 
+}
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #80a6f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
